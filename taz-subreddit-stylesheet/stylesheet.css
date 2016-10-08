@@ -534,15 +534,17 @@ span.hover.pagename.redditname {
 /*** CONTENT ***/
 
 .content {
-    padding: 5px 0px;
-    margin: 0px 320px 0px 10px;
-    border-radius: 5px;
+    padding: 0px 0px;
+    margin: 10px 320px 10px 10px;
+    box-shadow: 0px 0px 5px 1px #888;
+    background-color: #fff;
 }
 .link {
     padding-left: 5px;
     background: #fff;
     margin-bottom: 1px;
     color: #444;
+    border-bottom: 1px solid #ababab;
 }
 
 .link.last-clicked {
@@ -1100,7 +1102,7 @@ a[href="/sidebar"]:after {
     padding: 5px 0px;
     margin: 10px 10px 10px 10px;
     width: 300px;
-    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #888;
 }
 
 .side .spacer {
@@ -1177,6 +1179,7 @@ a[href="/sidebar"]:after {
 .sidecontentbox .content {
     border: 0;
     background: #fff;
+    box-shadow: none;
 }
 
 .sidecontentbox .title {
@@ -1455,6 +1458,7 @@ span.subscribers {
     margin: 20px 0px;
     background: #ababab;
     padding: 5px 0px 5px 0px;
+    box-shadow: 0px 30px 30px -30px #888 inset, 0px -30px 30px -30px #888 inset;
 }
 
 .titlebox form.toggle, .leavemoderator {
@@ -1663,10 +1667,13 @@ label[for=flair_enabled] {
     display: none
 }
 
+.content form {
+    box-shadow: none;
+}
+
 .formtabs-content {
     border-top: none;
     padding-top: 0px;
-    margin-left: -5px;
 }
 
 .formtabs-content .infobar {
@@ -1743,14 +1750,12 @@ div#title-field {
     border: 1px solid #fff;
     border-radius: 0px;
     margin-bottom: 5px;
-    margin-left: -5px;
     width: 510px;
 }
 
 .content.submit .spacer button.btn {
     width: 530px;
     height: 40px;
-    margin-left: -5px;
     background: #5e82a6;
     border: none;
     color: #fff;
@@ -2566,4 +2571,7 @@ ul#image-preview-list .preview img {
     border: 1px solid #F0F0F0;
     box-shadow: 0 0 8px #F5F5F5;
     border-radius: 2px;
+}
+.modtools-page>div.content {
+    margin-right: 320px;
 }
