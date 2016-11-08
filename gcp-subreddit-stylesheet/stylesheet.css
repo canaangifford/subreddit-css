@@ -21,7 +21,7 @@ Find out more on /r/Naut
 	==================================================================================================================================*/
 
 
-/* - Customization HERE! - */
+/* - Customization HERE! Woooooo!- */
 
 
 
@@ -29,7 +29,7 @@ Find out more on /r/Naut
 
     /* Buttons */
     .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
-    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background: url(%%headerimg%%) no-repeat 0px 0px;}
+    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background: url(%%headerimg%%) no-repeat -200px 0px;}
 
     .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #ff874b;}
 
@@ -78,7 +78,7 @@ Find out more on /r/Naut
     }
 
 /* Custom "Subscribers" Text Box */
-    .side .titlebox h1.redditname:before {background: url(%%headerimg%%) no-repeat 0px 0px;}
+    .side .titlebox h1.redditname:before {background: url(%%headerimg%%) no-repeat -120px 0px;}
     .side .titlebox h1.redditname a {color: #fff}
     .titlebox .subscribers .word {display: none}
     .titlebox .subscribers .number {color: #fff}
@@ -89,9 +89,9 @@ Find out more on /r/Naut
     .side:after {font-size: 10px; border: none;}
 
 /* Flair Styles */
-    .flair-mod {color: white; background: url(%%headerimg%%) no-repeat 0px 0px; padding: 5px; border-radius: 6px; font-size: 10px;}
-    .flair-user {color: white; background: url(%%headerimg%%) no-repeat 0px 0px; padding: 5px; border-radius: 6px; font-size: 10px;}
-    .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat 0px 0px; padding: 5px; border-radius: 6px; font-size: 10px;}
+    .flair-mod {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 5px 10px; border-radius: 10px; font-size: 10px;}
+    .flair-user {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 5px 10px; border-radius: 10px; font-size: 10px;}
+    .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 5px 10px; border-radius: 10px; font-size: 10px;}
 
 /* Vote Icons */
     .arrow.up { background: url(%%UV%%) no-repeat 0 0 !important; height: 38px; width: 33px; opacity: 0.6;}
