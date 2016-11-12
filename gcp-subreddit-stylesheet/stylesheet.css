@@ -64,8 +64,9 @@ Find out more on /r/Naut
 
 /* --- Addon: Replace Snoo with your own 42px x 42px --- */
 
-   /*#header-img.default-header, #header-img {background: url(%%snoo%%) no-repeat 0px 0px;}*/
+    #header-img.default-header, #header-img {background: url(%%snoo%%) no-repeat 0px 0px; margin: -108px 0 0 0; padding-left: 190px; height: 150px;}
     #header-img.default-header:hover, #header-img:hover {background-position: 0px 0px;}
+    
 
 /* --- End Addon --- */
 
@@ -74,7 +75,8 @@ Find out more on /r/Naut
 /* Title */
     #header .pagename a {
         font: normal 700 30px/42px Lato,arial,sans-serif;
-        text-shadow: 2px 2px 20px rgb(10, 5, 0)
+        text-shadow: 2px 2px 20px rgb(10, 5, 0);
+        display: none;
     }
 
 /* Custom "Subscribers" Text Box */
@@ -89,9 +91,9 @@ Find out more on /r/Naut
     .side:after {font-size: 10px; border: none;}
 
 /* Flair Styles */
-    .flair-mod {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 5px 10px; border-radius: 10px; font-size: 10px;}
-    .flair-user {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 5px 10px; border-radius: 10px; font-size: 10px;}
-    .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 5px 10px; border-radius: 10px; font-size: 10px;}
+    .flair-mod {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
+    .flair-user {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
+    .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
 
 /* Vote Icons */
     .arrow.up { background: url(%%UV%%) no-repeat 0 0 !important; height: 38px; width: 33px; opacity: 0.6;}
