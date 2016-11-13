@@ -31,9 +31,7 @@ Find out more on /r/Naut
     /* Buttons */
     .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
     .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background: url(%%headerimg%%) no-repeat -200px 0px;}
-
     .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #ff874b;}
-
     .morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #ce4500;}
 
     /* Links */
@@ -67,19 +65,11 @@ Find out more on /r/Naut
 
 /* --- General Adjustments and Fixes ---*/
 
-/* Custom Snoo */
-
+    /* Custom Snoo */
     #header-img.default-header, #header-img {background: url(%%snoo%%) no-repeat 0px 0px; margin: -108px 0 0 0; padding-left: 190px; height: 150px;}
     #header-img.default-header:hover, #header-img:hover {background-position: 0px 0px;}
 
-/* Title */
-    #header .pagename a {
-        font: normal 700 30px/42px Lato,arial,sans-serif;
-        text-shadow: 2px 2px 20px rgb(10, 5, 0);
-        display: none;
-    }
-
-/* Custom "Subscribers" Text Box */
+    /* Custom "Subscribers" Text Box */
     .side .titlebox h1.redditname:before {background: url(%%headerimg%%) no-repeat -120px 0px;}
     .side .titlebox h1.redditname a {color: #fff}
     .titlebox .subscribers .word {display: none}
@@ -87,16 +77,16 @@ Find out more on /r/Naut
     .titlebox .subscribers .number:after {content:" Citizens of Trunau"; color: #fff}
     .titlebox .fancy-toggle-button .active.remove {margin-left: -10px; margin-top: 18px;}
 
-/* Smaller Footer Elements */
+    /* Smaller Footer Elements */
     .footer-parent {background-image: none; padding: 0; height: 80px; margin: 0;}
     .side:after {font-size: 10px; border: none;}
 
-/* Flair Styles */
+    /* Flair Styles */
     .flair-mod {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
     .flair-user {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
     .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
 
-/* Vote Icons */
+    /* Vote Icons */
     .arrow.up { background: url(%%UV%%) no-repeat 0 0 !important; height: 38px; width: 33px; opacity: 0.6;}
     .arrow.upmod { background: url(%%UV%%) no-repeat 0 0!important; height: 38px; width: 33px;}
     .arrow.down { background: url(%%DV%%) no-repeat 0 0 !important; height: 38px; width: 33px;  opacity: 0.6;}
@@ -107,7 +97,9 @@ Find out more on /r/Naut
     .link.compressed .entry {padding: 25px 32px 0px 10px;}
     .thumbnail {margin-top: 16px;}
 
-/* Hide Spoilers */
+    /* Hide Spoilers */
     a[href$="/s"] { background-color: black; color: transparent; margin: 0 3px; cursor: default;}
-
     a[href$="/s"]:hover { background-color: transparent; color: black;} 
+
+    /* Title Link */
+    #header .pagename a {display: none; font-size: 0;}
