@@ -23,15 +23,14 @@ Find out more on /r/Naut
 
 
 
-/* ============ Customizations HERE! Woooooo! ============ */
+/* ============ Customizations HERE! ============ */
 
 
 /* --- Color Changes --- */
 
     /* Buttons */
-    .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
-    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background: url(%%headerimg%%) no-repeat -200px 0px;}
-    .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #ff874b;}
+    .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, body .btn, body button {background: url(%%headerimg%%) no-repeat -200px 0px;}
+    .commentarea .infobar, .submit-page #newlink.submit.content ul.tabmenu.formtab, .submit_text.enabled.roundfield, .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #ff874b;}
     .morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #ce4500;}
 
     /* Links */
@@ -99,7 +98,12 @@ Find out more on /r/Naut
 
     /* Hide Spoilers */
     a[href$="/s"] { background-color: black; color: transparent; margin: 0 3px; cursor: default;}
+
     a[href$="/s"]:hover { background-color: transparent; color: black;} 
 
     /* Title Link */
     #header .pagename a {display: none; font-size: 0;}
+
+    /* RES Fixes */
+    .res .content .RESBigEditorPop{background: none;}
+    .commentarea .menuarea {margin: 0 0 10px;}
