@@ -21,8 +21,9 @@ Find out more on /r/Naut
 	==================================================================================================================================*/
 
 
-/* - Customization HERE! Woooooo!- */
 
+
+/* ============ Customizations HERE! Woooooo! ============ */
 
 
 /* --- Color Changes --- */
@@ -46,11 +47,12 @@ Find out more on /r/Naut
 
     /* Background */
     body {background-color: #424141;}
-
+	
 /* --- End colors --- */
 
 
 /* --- Addon: Somewhat Larger Header --- */
+
     #header {height: 314px;}
     #header-bottom-left, body:not(.search-page) .side:before {top: 218px;}
     body:not(.search-page) .side .titlebox h1.redditname {top: 426px;}
@@ -62,15 +64,13 @@ Find out more on /r/Naut
 
 /* --- End Addon --- */
 
-/* --- Addon: Replace Snoo with your own 42px x 42px --- */
+
+/* --- General Adjustments and Fixes ---*/
+
+/* Custom Snoo */
 
     #header-img.default-header, #header-img {background: url(%%snoo%%) no-repeat 0px 0px; margin: -108px 0 0 0; padding-left: 190px; height: 150px;}
     #header-img.default-header:hover, #header-img:hover {background-position: 0px 0px;}
-    
-
-/* --- End Addon --- */
-
-/* --- General Adjustments and Fixes ---*/
 
 /* Title */
     #header .pagename a {
@@ -85,6 +85,7 @@ Find out more on /r/Naut
     .titlebox .subscribers .word {display: none}
     .titlebox .subscribers .number {color: #fff}
     .titlebox .subscribers .number:after {content:" Citizens of Trunau"; color: #fff}
+    .titlebox .fancy-toggle-button .active.remove {margin-left: -10px; margin-top: 18px;}
 
 /* Smaller Footer Elements */
     .footer-parent {background-image: none; padding: 0; height: 80px; margin: 0;}
@@ -105,3 +106,8 @@ Find out more on /r/Naut
     .link .entry {padding: 15px 0px}
     .link.compressed .entry {padding: 25px 32px 0px 10px;}
     .thumbnail {margin-top: 16px;}
+
+/* Hide Spoilers */
+    a[href$="/s"] { background-color: black; color: transparent; margin: 0 3px; cursor: default;}
+
+    a[href$="/s"]:hover { background-color: transparent; color: black;} 
