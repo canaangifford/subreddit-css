@@ -65,8 +65,11 @@ Find out more on /r/Naut
 /* --- General Adjustments and Fixes ---*/
 
     /* Custom Snoo */
-    #header-img.default-header, #header-img {background: url(%%nestor-snoo%%) no-repeat 0px 0px; margin: -68px 0 0 0; padding-left: 190px; height: 110px;}
+    #header-img.default-header, #header-img {background: url(%%della-snoo%%) no-repeat 0px 0px; margin: -68px 0 0 0; padding-left: 190px; height: 110px;}
     #header-img.default-header:hover, #header-img:hover {background-position: 0px 0px;}
+
+    /* Custom Sidebar Image */
+    .side:before {background: url(%%della-sidebar%%) no-repeat 0px 0px;}
 
     /* Custom "Subscribers" Text Box */
     .side .titlebox h1.redditname:before {background: url(%%headerimg%%) no-repeat -120px 0px;}
