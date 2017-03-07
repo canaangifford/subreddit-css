@@ -65,7 +65,7 @@ Find out more on /r/Naut
 /* --- General Adjustments and Fixes ---*/
 
     /* Custom Snoo */
-    #header-img.default-header, #header-img {background: url(%%snoo%%) no-repeat 0px 0px; margin: -108px 0 0 0; padding-left: 190px; height: 150px;}
+    #header-img.default-header, #header-img {background: url(%%nestor-snoo%%) no-repeat 0px 0px; margin: -68px 0 0 0; padding-left: 190px; height: 110px;}
     #header-img.default-header:hover, #header-img:hover {background-position: 0px 0px;}
 
     /* Custom "Subscribers" Text Box */
@@ -75,6 +75,7 @@ Find out more on /r/Naut
     .titlebox .subscribers .number {color: #fff}
     .titlebox .subscribers .number:after {content:" Citizens of Trunau"; color: #fff}
     .titlebox .fancy-toggle-button .active.remove {margin-left: -10px; margin-top: 18px;}
+    .titlebox .fancy-toggle-button .active.add {margin-left: -10px; margin-top: 18px;}
 
     /* Smaller Footer Elements */
     .footer-parent {background-image: none; padding: 0; height: 80px; margin: 0;}
@@ -86,10 +87,11 @@ Find out more on /r/Naut
     .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
 
     /* Vote Icons */
-    .arrow.up { background: url(%%UV%%) no-repeat 0 0 !important; height: 38px; width: 33px; opacity: 0.6;}
-    .arrow.upmod { background: url(%%UV%%) no-repeat 0 0!important; height: 38px; width: 33px;}
-    .arrow.down { background: url(%%DV%%) no-repeat 0 0 !important; height: 38px; width: 33px;  opacity: 0.6;}
-    .arrow.downmod { background: url(%%DV%%) no-repeat 0 0 !important; height: 38px; width: 33px;}
+    .arrow.up { background: url(%%UVfix%%) no-repeat 0 0 !important; height: 33px; width: 28px; opacity: 0.5;}
+    .arrow.upmod { background: url(%%UVfix%%) no-repeat 0 0!important; height: 33px; width: 28px;}
+    .arrow.down { background: url(%%DVfix%%) no-repeat 0 0 !important; height: 33px; width: 28px;  opacity: 0.5;}
+    .arrow.downmod { background: url(%%DVfix%%) no-repeat 0 0 !important; height: 33px; width: 28px;}
+    .link .midcol {width: 28px!important;}
     .link {padding: 18px 0;}
     .comment .midcol {width: 40px;}
     .link .entry {padding: 15px 0px}
@@ -97,9 +99,13 @@ Find out more on /r/Naut
     .thumbnail {margin-top: 16px;}
 
     /* Hide Spoilers */
-    a[href$="/s"] { background-color: black; color: transparent; margin: 0 3px; cursor: default;}
+    a[href$="/s"] { background-color: black; color: black; margin: 0 3px; cursor: default;}
 
     a[href$="/s"]:hover { background-color: transparent; color: black;} 
+
+    .search-result a[href$="/s"] { background-color: black; color: black; margin: 0 3px; cursor: default;}
+
+    .search-result a[href$="/s"]:hover { background-color: transparent; color: black;} 
 
     /* Title Link */
     #header .pagename a {display: none; font-size: 0;}
@@ -107,3 +113,6 @@ Find out more on /r/Naut
     /* RES Fixes */
     .res .content .RESBigEditorPop{background: none;}
     .commentarea .menuarea {margin: 0 0 10px;}
+
+    /* Mod Mail Fix */
+    .message {background-color: white;}
