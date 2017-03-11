@@ -1817,8 +1817,14 @@ label[for=flair_enabled] {
 
 /*** SUBMISSION PAGE ***/
 
-.content h1 {
-    display: none
+.submit-page h1 {
+    color: #4f4f4f;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.submit-page .content {
+    margin: 70px 1025px 10px 10px;
 }
 
 .content form {
