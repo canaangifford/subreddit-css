@@ -88,6 +88,7 @@ Find out more on /r/Naut
     .flair-mod {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
     .flair-user {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
     .flair-gcp {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 10px; font-size: 9px;}
+    .linkflair-link .linkflairlabel {color: white; background: url(%%headerimg%%) no-repeat -300px 0px; padding: 2px 4px; border-radius: 2px; font-size: 12px;}
 
     /* Vote Icons */
     .arrow.up { background: url(%%UVfix%%) no-repeat 0 0 !important; height: 33px; width: 28px; opacity: 0.5;}
