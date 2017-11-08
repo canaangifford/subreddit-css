@@ -1,10 +1,9 @@
-# subreddit-css
-Contains stylesheets for moderated subreddits.
+# taz-subreddit-theme
+Contains stylesheet, images, and sidebar text format for /r/theadventurezone.
 
-These are simple stlyesheet modifications built on popular themes such as /r/Naut and /r/stcky. Master contains every subreddit folder. 
-Images used are saved in the appropriate folder.
+This is a reddit theme built on /r/stcky. Images used are saved in the appropriate folder and the sidebar text needed for the announcements bar is included in the sidebar.txt.
 
-Subreddit Links:
-https://www.reddit.com/r/theglasscannonpodcast
-
+Subreddit Links:  
 https://www.reddit.com/r/TheAdventureZone/
+
+https://www.reddit.com/r/stcky
