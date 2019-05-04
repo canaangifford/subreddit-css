@@ -1,3 +1,4 @@
+_This stylesheet has been deprecated. Not compatible with the Reddit redesign._
 # taz-subreddit-theme
 Contains stylesheet, images, and sidebar text format for /r/theadventurezone.
 
